@@ -32,13 +32,13 @@
             <h1>Dspecito</h1>
             <p>Luis Fonsi Ft. Puerto Rican</p>
 
-            <audio controls>
+            <audio id="song">
                 <source src="/media/NEFFEX - Grateful [Copyright Free] No.54.mp3" type="audio/mpeg">
             </audio>
             <input type="range" value="0" id="progress">
             <div class="controls">
                 <div><i class="fa-solid fa-backward"></i></div>
-                <div><i class="fa-solid fa-play"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
                 <div><i class="fa-solid fa-forward"></i></div>
             </div>
         </div>
